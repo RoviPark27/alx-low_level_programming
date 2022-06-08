@@ -1,4 +1,4 @@
-**
+/**
  *File: main.h
  *Author: Robel Getachew
  *Desc: header file
