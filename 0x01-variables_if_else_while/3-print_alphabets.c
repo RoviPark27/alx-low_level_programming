@@ -1,28 +1,20 @@
 #include <stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
+ * main - displays all lower and upper case alphabets in ascending order
+ * Return: 0 if exited properly, non-zero otherwise
+*/
 int main(void)
 {
-int x, y;
+	int ch;
 
-<<<<<<< HEAD
-for (m = 97; m <= 122; m++)
-putchar(m);
-for (n = 65; n <= 90; n++)
-putchar(n);
-=======
-for (x = 97; x<= 122; x++)
-{
-putchar(x);
-}
-for (y = 65; y <= 90; y++)
-{
-putchar(y);
-}
->>>>>>> c38d008b18676f16774155151031a0fcc1c46752
-putchar('\n');
-return (0);
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+	putchar(ch);
+	}
+	for (ch = 'A'; ch <= 'Z'; ch++)
+	{
+	putchar(ch);
+	}
+	putchar(10);
+	return (0);
 }
